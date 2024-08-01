@@ -32,7 +32,7 @@ int main(void)
         move_boad(&players[usernum - 1], direction);
 
         #ifdef REMAIKE
-            printf("//修正点。文字の合成をするときの動作について。");
+            printf("//セーブ機能の追加をしたい。");
         #endif
 
         show_boad(&players[usernum - 1]);
